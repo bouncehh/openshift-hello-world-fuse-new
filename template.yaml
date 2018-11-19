@@ -27,7 +27,8 @@ objects:
       sourceStrategy:
         from:
           kind: ImageStreamTag
-          name: fis-java-openshift:2.0
+#          name: fis-java-openshift:2.0
+           name: registry.access.redhat.com/jboss-fuse-6/fis-java-openshift
           namespace: openshift
     output: 
       to:
