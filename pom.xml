@@ -5,7 +5,7 @@
 
   <groupId>com.redhat.fuse</groupId>
   <artifactId>hello-world-fuse-spring-boot</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <name>Red Hat Fuse 7.1 :: Hello World (Spring Boot)</name>
   <description>Red Hat Fuse 7.1 :: Hello World (Spring Boot)</description>
