@@ -50,7 +50,7 @@ objects:
           name: ${PARAM_APP_NAME}
       spec:
         containers:
-          - name: hello
+          - name: ${PARAM_APP_NAME}
             env:
               - name: TZ
                 value: America/Argentina/Buenos_Aires
