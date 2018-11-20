@@ -120,10 +120,10 @@ parameters:
 - description: The application name
   displayName: Application name
   name: PARAM_APP_NAME
-  value: hello
+  value: ${PARAM_APP_NAME}
   required: true
 - description: The image name
   displayName: Image name
   name: PARAM_IMAGE_NAME
-  value: hello
+  value: ${PARAM_APP_NAME}
   required: true
