@@ -27,7 +27,8 @@ objects:
       sourceStrategy:
         from:
           kind: ImageStreamTag
-          name: fis-java-openshift:2.0
+#          name: fis-java-openshift:2.0
+          name: fis-java-openshift:latest
           namespace: openshift
     output: 
       to:
@@ -49,7 +50,7 @@ objects:
           name: ${PARAM_APP_NAME}
       spec:
         containers:
-          - name: hello
+          - name: ${PARAM_APP_NAME}
             env:
               - name: TZ
                 value: America/Argentina/Buenos_Aires
@@ -119,10 +120,10 @@ parameters:
 - description: The application name
   displayName: Application name
   name: PARAM_APP_NAME
-  value: hello
+  value: ${PARAM_APP_NAME}
   required: true
 - description: The image name
   displayName: Image name
   name: PARAM_IMAGE_NAME
-  value: hello
+  value: ${PARAM_APP_NAME}
   required: true
