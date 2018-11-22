@@ -93,7 +93,6 @@ objects:
   metadata:
     labels:
       app: ${PARAM_APP_NAME}
-    #name: ${PARAM_APP_NAME}
     name: ${PARAM_SVC_NAME}
   spec:
     ports:
