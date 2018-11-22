@@ -122,6 +122,11 @@ parameters:
   name: PARAM_APP_NAME
   value: ${PARAM_APP_NAME}
   required: true
+- description: The service name
+  displayName: Service name
+  name: PARAM_SVC_NAME
+  value: ${PARAM_SVC_NAME}
+#  required: true    
 - description: The image name
   displayName: Image name
   name: PARAM_IMAGE_NAME
