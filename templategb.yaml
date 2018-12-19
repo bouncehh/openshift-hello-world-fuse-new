@@ -49,7 +49,7 @@ objects:
           name: ${PARAM_APP_NAME}
       spec:
         containers:
-          - name: ${PARAM_SVC_NAME}
+          - name: ${PARAM_APP_NAME}
             env:
               - name: TZ
                 value: America/Argentina/Buenos_Aires
