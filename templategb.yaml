@@ -112,7 +112,8 @@ objects:
   spec:
     to:
       kind: Service
-      name: ${PARAM_APP_NAME}
+      #name: ${PARAM_APP_NAME}
+      name: ${PARAM_SVC_NAME}      
       weight: 100
     wildcardPolicy: None
 parameters:
